@@ -1,0 +1,47 @@
+@media (color) {
+  .wtf-wet :not(.wtf-dry) { color: inherit; background: none }
+  .wtf-am { color: var(--wtf-ink) !important; background: var(--wtf-oil) !important }
+  .wtf-pm { color: var(--wtf-oil) !important; background: var(--wtf-ink) !important }
+  .wtf-am { --wtf-ink: #101; --wtf-oil: WhiteSmoke }
+  .wtf-pm { --wtf-ink: #101; --wtf-oil: WhiteSmoke }
+  .wtf-go { --wtf-ink: Indigo; --wtf-oil: WhiteSmoke }
+  .wtf-yo { --wtf-ink: Black; --wtf-oil: #ed3 }
+}
+
+.wtf-box { box-sizing: border-box; padding: 0 }
+.wtf-pad { box-sizing: border-box; padding: 1rem }
+.wtf-wad { box-sizing: border-box; padding: 2rem }
+.wtf-read { max-width: 50em }
+.wtf-inline { display: inline }
+.wtf-area { display: block; display: flow-root }
+.wtf-table { display: table }
+.wtf-flex { display: flex }
+.wtf-free { margin: auto }
+.wtf-flush { margin: 0 }
+.wtf-inhale { margin-top: 2rem }
+.wtf-exhale { margin-bottom: 2rem }
+
+.wtf-wrap { overflow-wrap: break-word }
+.wtf-font { font: inherit }
+.wtf-tame { font-weight: 400; font-style: inherit }
+.wtf-bold { font-weight: 700; font-style: inherit }
+.wtf-mono { font-family: monospace }
+.wtf-sans { font-family: sans-serif }
+.wtf-serif { font-family: serif }
+
+.wtf-rem { font-size: calc(15px + 1vmin) }
+.wtf-calm { font-size: 1rem; line-height: 1.5 }
+.wtf-loud { font-size: 2rem; line-height: 1.25 }
+.wtf-rage { font-size: 3rem; line-height: 1.25 }
+
+@media (max-width: 30em) {
+  .wtf-loud { font-size: 1.5rem }
+  .wtf-rage { font-size: 2rem }
+}
+
+@media (min-width: 50em) {
+  .wtf-lead {
+    box-sizing: border-box;
+    padding-inline-end: 20em;
+  }
+}
